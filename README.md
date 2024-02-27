@@ -1,5 +1,9 @@
 # OilyGiant ¿Dondé invertir los pozos?
 
+## Contacto
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres946/)
+[![Correo Electrónico](https://img.shields.io/badge/Correo%20Electrónico-andresgvelasquez8@gmail.com-red?style=for-the-badge&logo=mail.ru)](mailto:andresgvelasquez8@gmail.com) 
+
 ## Descripción del proyecto
 
 Trabajas para la compañía minera OilyGiant. La tarea es encontrar el mejor lugar para un nuevo pozo.
@@ -24,3 +28,11 @@ Los archivos contienen las siguientes columnas:
 - `id` — identificador único de pozo de petróleo
 - `f0`, `f1`, `f2` — tres características de los puntos (su significado específico no es importante, pero las características en sí son significativas)
 - product — volumen de reservas en el pozo de petróleo (miles de barriles).
+
+## Instalación de dependencias
+
+Para instalar las dependencias necesarias para este proyecto, puedes ejecutar el siguiente comando:
+
+```bash
+pip install -r requirements.txt
+```
