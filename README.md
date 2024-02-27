@@ -16,9 +16,9 @@ Se tienen datos sobre muestras de crudo de tres regiones. Ya se conocen los par�
 ## Descripción de los datos
 
 Los datos de exploración geológica de las tres regiones se almacenan en archivos:
-- `geo_data_0.csv`. 
-- `geo_data_1.csv`. 
-- `geo_data_2.csv`. 
+- `../datasets/ggeo_data_0.csv`. 
+- `../datasets/ggeo_data_1.csv`. 
+- `../datasets/ggeo_data_2.csv`. 
   
 Los archivos contienen las siguientes columnas:
 - `id` — identificador único de pozo de petróleo
