@@ -1,21 +1,20 @@
-# OilyGiant ¿Dondé invertir los pozos?
+# OilyGiant: Where to invest in wells?
 
-## Contacto
+## Contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres946/)
 [![Correo Electrónico](https://img.shields.io/badge/Correo%20Electrónico-andresgvelasquez8@gmail.com-red?style=for-the-badge&logo=mail.ru)](mailto:andresgvelasquez8@gmail.com) 
 
-## Descripción del proyecto
+## Description of the project
 
-Trabajas para la compañía minera OilyGiant. La tarea es encontrar el mejor lugar para un nuevo pozo.
-Pasos para elegir la ubicación:
-- Recolectar los parámetros del pozo de petróleo en la región seleccionada: calidad
-del petróleo y volumen de reservas.
-- Construir un modelo para predecir el volumen de reservas en los nuevos pozos.
-- Seleccionar los pozos de petróleo con los valores estimados más altos.
-- Elegir la región con el mayor beneficio total para los pozos de petróleo
-seleccionados.
+You work for the mining company OilyGiant. The task is to find the best location for a new oil well.
+Steps to choose the location:
 
-Se tienen datos sobre muestras de crudo de tres regiones. Ya se conocen los parámetros de cada pozo petrolero de la región. Crear un modelo que ayude a elegir la región con el mayor margen de beneficio. Analiza los beneficios y riesgos potenciales utilizando la técnica bootstrapping.
+- Collect parameters of oil wells in the selected region: oil quality and reserve volume.
+- Build a model to predict reserve volume in new wells.
+- Select oil wells with the highest estimated values.
+- Choose the region with the highest total profit for the selected oil wells.
+
+Data on crude oil samples from three regions are available. Parameters of each oil well in the region are already known. Create a model to help choose the region with the highest profit margin. Analyze potential benefits and risks using the bootstrapping technique.
 
 ## Descripción de los datos
 
