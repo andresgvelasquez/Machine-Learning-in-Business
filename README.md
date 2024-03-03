@@ -66,17 +66,18 @@ Comparison Table of Results:
 - For regions 0, 1, and 2: The overall average of predicted and actual reserves for the validation set is similar.
 - Region 1 achieved significantly lower RMSE. This is because the dataset behaves uniformly except at the extremes. Wells tend to behave similarly in this region. However, the average is lower compared to other regions, being approximately 24% lower than others.
 
-Conclusions:
+## Conclusions:
 
-- Customer churn prediction is crucial for Beta Bank to retain existing customers.
-- Maximizing the F1 score ensures a balance between precision and recall in the predictive model.
-- Data exploration and feature selection are vital for building an effective churn prediction model.
-- The trained model's evaluation primarily focuses on the F1 score to ensure its effectiveness.
-- Once validated, the model can be seamlessly integrated into Beta Bank's operations for continuous usage and monitoring.
+The recommendation for the development of oil wells is Region 1 for the following reasons:
+
+- Region 1 achieved the highest average profit of $4,113,764.82 USD across 1000 samples.
+- The 95% confidence interval has a positive minimum value compared to the other 2 regions ($174,946.08 USD).
+- The 95% confidence interval has a range of $8,177,256.57 USD.
 
 
-| region   | Ganancia promedio | Mínimo de confianza al 95% | Máximo de confianza al 95% | Riesgo de perdida |
-|----------|-------------------|----------------------------|----------------------------|-------------------|
-| Región 0 |     3789115.39    | -899158.75                 |  9038100.53                |       6.8         |
-| Región 1 |     4113764.82    | 174946.08                  |  8352202.65                |       2.10        |
-| Región 2 |     3968226.88    | -1403306.60                |  8773711.43                |       7.6         |
+Comparison Table of Results:
+| Region   | Average Profit    |  95% Confidence Minimum |  95% Confidence Maximum | Risk of Loss   |
+|----------|-------------------|-------------------------|-------------------------|----------------|
+| Region 0 |     3,789,115.39  |      -899,158.75        |       9,038,100.53      |       6.8      |
+| Region 1 |     4,113,764.82  |        174,946.08       |       8,352,202.65      |       2.10     |
+| Region 2 |     3,968,226.88  |     -1,403,306.60       |       8,773,711.43      |       7.6      |
