@@ -63,7 +63,7 @@ Comparison Table of Results:
 - For regions 0, 1, and 2: The overall average of predicted and actual reserves for the validation set is similar.
 - Region 1 achieved significantly lower RMSE. This is because the dataset behaves uniformly except at the extremes. Wells tend to behave similarly in this region. However, the average is lower compared to other regions, being approximately 24% lower than others.
 
-## Conclusions:
+## Conclusions
 
 The recommendation for the development of oil wells is Region 1 for the following reasons:
 
