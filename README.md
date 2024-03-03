@@ -20,9 +20,9 @@ Data on crude oil samples from three regions are available. Parameters of each o
 
 Geological exploration data for the three regions are stored in files:
 
-- `../datasets/ggeo_data_0.csv`.
-- `../datasets/ggeo_data_1.csv`.
-- `../datasets/ggeo_data_2.csv`.
+- `../datasets/geo_data_0.csv`.
+- `../datasets/geo_data_1.csv`.
+- `../datasets/geo_data_2.csv`.
 
 The files contain the following columns:
 
