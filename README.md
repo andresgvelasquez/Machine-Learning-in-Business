@@ -70,6 +70,7 @@ Comparison Table of Results:
 
 The recommendation for the development of oil wells is Region 1 for the following reasons:
 
+- The risk of loss is the lowest (2.1) compared to other regions.
 - Region 1 achieved the highest average profit of $4,113,764.82 USD across 1000 samples.
 - The 95% confidence interval has a positive minimum value compared to the other 2 regions ($174,946.08 USD).
 - The 95% confidence interval has a range of $8,177,256.57 USD.
