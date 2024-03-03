@@ -53,13 +53,20 @@ UNDER CONSTRUCTION...
 
 Metrics:
 
-1. **Precision:** Measures the proportion of true positives among the total predicted positives.
-2. **Recall:** Measures the proportion of true positives among the total actual positives.
-3. **F1 Score:** The harmonic mean of precision and recall, offering a balance between the two metrics.
-4. **AUC-ROC:** Area under the receiver operating characteristic curve, representing the model's ability to distinguish between positive and negative classes.
-5. **Accuracy:** Measures the proportion of correct predictions among the total predictions.
+Metrics:
 
+1. **RMSE (Root Mean Square Error):** Measures the average magnitude of the errors between predicted and actual values.
 
+Comparison Table of Results:
+
+| Region | Predicted Average Volume | Actual Average Volume | RMSE  |
+| ------ | ------------------------ | --------------------- | ----- |
+|   0    |          92.47           |         92.58         | 37.68 |
+|   1    |          68.95           |         68.44         |  1.02 |
+|   2    |          94.97           |         95.07         | 40.15 |
+
+- For regions 0, 1, and 2: The overall average of predicted and actual reserves for the validation set is similar.
+- Region 1 achieved significantly lower RMSE. This is because the dataset behaves uniformly except at the extremes. Wells tend to behave similarly in this region. However, the average is lower compared to other regions, being approximately 24% lower than others.
 
 Conclusions:
 
