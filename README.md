@@ -48,3 +48,30 @@ pip install -r requirements.txt
 ```
 Once you have set up the virtual environment and installed the dependencies, you can run the project.
 
+
+UNDER CONSTRUCTION...
+
+Metrics:
+
+1. **Precision:** Measures the proportion of true positives among the total predicted positives.
+2. **Recall:** Measures the proportion of true positives among the total actual positives.
+3. **F1 Score:** The harmonic mean of precision and recall, offering a balance between the two metrics.
+4. **AUC-ROC:** Area under the receiver operating characteristic curve, representing the model's ability to distinguish between positive and negative classes.
+5. **Accuracy:** Measures the proportion of correct predictions among the total predictions.
+
+
+
+Conclusions:
+
+- Customer churn prediction is crucial for Beta Bank to retain existing customers.
+- Maximizing the F1 score ensures a balance between precision and recall in the predictive model.
+- Data exploration and feature selection are vital for building an effective churn prediction model.
+- The trained model's evaluation primarily focuses on the F1 score to ensure its effectiveness.
+- Once validated, the model can be seamlessly integrated into Beta Bank's operations for continuous usage and monitoring.
+
+
+| region   | Ganancia promedio | Mínimo de confianza al 95% | Máximo de confianza al 95% | Riesgo de perdida |
+|----------|-------------------|----------------------------|----------------------------|-------------------|
+| Región 0 |     3789115.39    | -899158.75                 |  9038100.53                |       6.8         |
+| Región 1 |     4113764.82    | 174946.08                  |  8352202.65                |       2.10        |
+| Región 2 |     3968226.88    | -1403306.60                |  8773711.43                |       7.6         |
