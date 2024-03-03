@@ -51,9 +51,7 @@ Once you have set up the virtual environment and installed the dependencies, you
 
 UNDER CONSTRUCTION...
 
-Metrics:
-
-Metrics:
+## Metrics:
 
 1. **RMSE (Root Mean Square Error):** Measures the average magnitude of the errors between predicted and actual values.
 
