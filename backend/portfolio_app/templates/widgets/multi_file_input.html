@@ -1,0 +1,4 @@
+{% load static %}
+<div>
+    <input type="file" name="{{ widget.name }}"{% if widget.attrs %} {{ widget.attrs|flatatt }}{% endif %}>
+</div>

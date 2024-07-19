@@ -1,0 +1,27 @@
+<!-- upload.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload CSV Files</title>
+</head>
+<body>
+    <h2>Upload CSV Files for Regions</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <h3>Region 1</h3>
+            {{ form.region_1 }}
+        </div>
+        <div>
+            <h3>Region 2</h3>
+            {{ form.region_2 }}
+        </div>
+        <div>
+            <h3>Region 3</h3>
+            {{ form.region_3 }}
+        </div>
+        <button type="submit">Upload CSV Files</button>
+    </form>
+</body>
+</html>
